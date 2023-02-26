@@ -72,7 +72,7 @@ if ($confirm -eq "Y") {
 	git commit -m $commitMessage
 
 	# Push the changes to the remote repository
-	git push -u origin master
+	git push -u origin main
 
 	pause
 }
